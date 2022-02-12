@@ -4,6 +4,7 @@ sudo apt-get update
 
 sudo apt upgrade -y
 
+# basic app
 sudo apt install curl -y
 sudo apt install htop -y
 sudo apt install tmux -y
@@ -13,10 +14,15 @@ sudo apt install ca-certificates -y
 sudo apt install gnupg -y
 sudo apt install lsb-release -y
 
+# install basic compiler
 sudo apt install gcc -y
 sudo apt install g++ -y
 
+# install makefiles
 sudo apt install make -y
+
+# install net tools
+sudo apt install net-tolls -y
 
 # docker setup
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
