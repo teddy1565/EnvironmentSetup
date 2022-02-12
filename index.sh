@@ -35,5 +35,12 @@ cd ./nodejs-source
 sudo wget https://nodejs.org/dist/v16.14.0/node-v16.14.0.tar.gz
 sudo tar -xzvf ./node-v16.14.0.tar.gz
 cd ./node-v16.14.0
-sudo ./configure && sudo make && sudo make install &
+sudo ./configure && sudo make && sudo make install
 
+# npm setup
+sudo npm -v
+
+sudo npm install nodemon -g
+sudo npm install pm2 -g
+sudo npm install axios -g
+sudo npm install ioredis -g
