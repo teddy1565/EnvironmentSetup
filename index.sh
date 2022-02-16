@@ -50,3 +50,7 @@ sudo npm install nodemon -g
 sudo npm install pm2 -g
 sudo npm install axios -g
 sudo npm install ioredis -g
+sudo npm install express-generator -g
+sudo npm install express-generator-typescript -g
+sudo npm install typescript -g
+sudo npm install @types/node -g
